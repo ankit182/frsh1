@@ -5,17 +5,8 @@ from django.shortcuts import redirect
 from django.http import HttpResponse
 from django.template import Context
 from django.shortcuts import render
-from bs4 import BeautifulSoup
-# from requests_futures.sessions import FuturesSession as async
 
-import simplejson
-import wikipedia
-import grequests
 import requests
-import random
-import json
-import sys
-import re
 import os
 
 base_dir = os.path.dirname(os.path.dirname(__file__))
