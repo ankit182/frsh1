@@ -96,6 +96,12 @@ DATABASES = {
         'PORT': os.environ['RDS_PORT'],
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': '',
+#         'NAME': '',
+#     }
+# }
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
 

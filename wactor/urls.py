@@ -10,4 +10,5 @@ urlpatterns = [
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.main_pg),
+    url(r'^blog/', include('blog.urls')),
 ]
