@@ -99,9 +99,13 @@ DATABASES = {
 }
 # DATABASES = {
 #     'default': {
-#         'ENGINE': '',
-#         'NAME': '',
-#     }
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'test',
+#         'USER': 'postgres',
+#         'PASSWORD': 'wibe',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#         }
 # }
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
