@@ -1,6 +1,6 @@
 from django.template.loader import get_template
 from django.shortcuts import render
-from dbtest.models import *
+from blog.models import *
 
 # Create your views here.
 def home(request):
